@@ -1,0 +1,32 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8083
+spring:
+  profiles: dev
+
+---
+
+server:
+  port: 8084
+spring:
+  profiles: prod
+
+
+#person:
+#  name: zhangsan
+
+#  age: 22
+#  boss: false
+#  birth: 1996/04/26
+#  maps: {k1: v1,k2: 12}
+#  lists:
+#    - lisi
+#    - wangwu
+#  dog:
+#    name: laifu
+#    age: 2
